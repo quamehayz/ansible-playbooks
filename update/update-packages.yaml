@@ -4,7 +4,7 @@
   become: yes
 
   tasks:
-    - name: Perform a dist-upgrade.
+    - name: Perform a distribution-upgrade.
       apt:
         upgrade: dist
         update_cache: yes
